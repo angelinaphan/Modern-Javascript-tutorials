@@ -59,8 +59,8 @@ let result = email.replace('g', 'i');
 
 console.log(result); */
 
-let radius = 10;
-const pi = 3.14;
+// let radius = 10;
+// const pi = 3.14;
 
 // console.log(radius, pi);
 
@@ -76,7 +76,7 @@ const pi = 3.14;
 
 // console.log(result);
 
-let likes = 10;
+// let likes = 10;
 
 // likes = likes + 1;
 // likes++;
@@ -96,6 +96,7 @@ let likes = 10;
 
 // let result = 'the blog has ' + likes + ' likes';
 // console.log(result);
+
 
 // template strings
 const title = 'best reads of 2019';
