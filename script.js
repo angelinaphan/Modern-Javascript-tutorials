@@ -384,10 +384,105 @@ console.log('area is:', area); */
 // const result = greet();
 // console.log(result);
 
-const bill = function(products, tax){
+/* const bill = function(products, tax){
   let total = 0;
   for(let i = 0; i < products.length; i++){
     total += products[i] + products[i] * tax;
   }
   return total;
-}
+} */
+
+/* const bill = (products, tax) => {
+  let total = 0;
+  for(let i = 0; i < products.length; i++){
+    total += products[i] + products[i] * tax;
+  }
+  return total;
+};
+
+console.log(bill([10, 15, 30], 0.2)); */
+
+/* const name = 'angie';
+
+//functions
+const greet = () => 'hello';
+
+let resultOne = greet();
+console.log(resultOne);
+
+
+// methods
+let resultTwo = name.toUpperCase();
+console.log(resultTwo); */
+
+
+// tutorial 5
+
+// object literals
+
+/* let user = {
+  name: 'angie', 
+  age: 18,
+  email: 'angelina@gmail.com',
+  location: 'nj',
+  blogs: ['miffy', 'angelic']
+};
+
+console.log(user);
+console.log(user.name);
+
+// user.age = 82;
+console.log(user.age);
+
+console.log(user['location']);
+user['name'] = 'ang';
+console.log(user['name']);
+
+console.log(typeof user); */
+
+// object literals
+/* let user = {
+  name: 'angie', 
+  age: 18,
+  email: 'angelina@gmail.com',
+  location: 'nj',
+  blogs: ['miffy', 'angelic'],
+  login: function(){
+    console.log('the user logged in');
+  },
+  logout: function(){
+    console.log('the user logged out');
+  },
+  logBlogs: function(){
+    // console.log(this.blogs);
+    console.log('this user has written the following blogs:');
+    this.blogs.forEach(blog => {
+    console.log(blog);
+    })
+    console.log(this);
+  }
+};
+
+user.logBlogs();
+console.log(this); */
+
+
+// math object
+/* console.log(Math);
+console.log(Math.PI);
+console.log(Math.E);
+
+const area = 7.7;
+
+console.log(Math.round(area));
+console.log(Math.floor(area));
+console.log(Math.ceil(area));
+console.log(Math.trunc(area));
+
+// random numbers
+
+const random = Math.random();
+
+console.log(random);
+console.log(Math.round(random * 100)); */
+
