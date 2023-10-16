@@ -486,3 +486,78 @@ const random = Math.random();
 console.log(random);
 console.log(Math.round(random * 100)); */
 
+
+// tutorial 6
+// const para = document.querySelector('body > h1');
+
+// console.log(para);
+
+// const paras = document.querySelectorAll('p');
+// const errors = document.querySelectorAll('.error');
+
+// console.log(errors);
+
+// get an element by ID
+/* const title = document.getElementById('page-title');
+console.log(title);
+
+// get elements by thier class name
+const errors = document.getElementsByClassName('.error');
+console.log(errors);
+console.log(errors[0]); */
+
+// get elements by their tag name
+// const paras = document.getElementsByTagName('p');
+// console.log(paras);
+// console.log(paras[1]);
+
+// const para = document.querySelector('p');
+
+// console.log(para.innerText);
+// para.innerText = 'angie phan';
+
+/* const paras = document.querySelectorAll('p');
+paras.forEach(para => {
+  console.log(para.innerText);
+  para.innerText += ' new text';
+}); */
+
+/* const link = document.querySelector('a');
+
+console.log(link.getAttribute('href'));
+link.setAttribute('href', 'https://www.angelinaphan.com');
+link.innterText = 'the net to angie phan web';
+
+const mssg = document.querySelector('p');
+
+console.log(mssg.getAttribute('class'));
+mssg.setAttribute('class', 'success');
+mssg.setAttribute('style', 'color: blue;'); */
+
+/* const title = document.querySelector('h1');
+
+// title.setAttribute('style', 'margin: 50px;');
+
+console.log(title.style);
+console.log(title.style.color);
+
+title.style.margin = '50px';
+title.style.color = 'lightblue';
+title.style.fontSize = '60px';
+title.style.margin = ''; */
+
+const paras = document.querySelectorAll('p');
+
+paras.forEach(p => {
+  if(p.textContent.includes('error')){
+    p.classList.add('error');
+  }
+  if(p.innerText.includes('success')){
+    p.classList.add('success');
+  }
+});
+
+const title = document.querySelector('.title');
+
+title.classList.toggle('test');
+title.classList.toggle('test');
